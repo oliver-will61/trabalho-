@@ -1,8 +1,11 @@
+/* Importações de arquivos CSS externos */
 
 @import url(reset.css);
 @import url(contato_style.css);
 @import url(formacao_style.css);
 @import url(portifolio_style.css);
+
+/* Definição de variáveis para cores e tamanhos de fonte */
 
 :root {
     --cor-de-fundo-menu: #612a52;
@@ -16,9 +19,9 @@
     --tamanho-fonte-menu:1.6em;
     --tamanho-fonte-titulo2: 1.5em;
     --tamanho-fonte-principal: 1.1em;
-
 }
 
+/*-------------------------------------------------------------------------*/
 
 body{
     background-color: var(--cor-de-fundo);
@@ -99,7 +102,8 @@ footer{
     margin-bottom: 0.5em;
 }
 
-
+/*----------------------------------------------------------------------------*/
+/* Estilos responsivos para resoluções de tela maiores (max-width: 1920px) */
 @media (max-width:1920px) {
     body{
         font-size: 0.9em;
@@ -108,14 +112,14 @@ footer{
         margin: 1em 0;
     }
     .container-imagem{
-        width: 28%;
+        width: 25%;
     }
 
     .container-texto {
-        width: 28%;
+        width: 25%;
     }
 
     footer{
-        margin-top: 5em; 
+        margin-top: 8em; 
     }
 }
