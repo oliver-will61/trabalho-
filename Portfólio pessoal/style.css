@@ -19,13 +19,13 @@
 
 }
 
+
 body{
     background-color: var(--cor-de-fundo);
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
 }
-
 .menu{
     display: flex;
     justify-content: center;
@@ -97,4 +97,25 @@ footer{
     color: var(--cor-fonte);
     text-align: center;
     margin-bottom: 0.5em;
+}
+
+
+@media (max-width:1920px) {
+    body{
+        font-size: 0.9em;
+    }
+    .titulo{
+        margin: 1em 0;
+    }
+    .container-imagem{
+        width: 28%;
+    }
+
+    .container-texto {
+        width: 28%;
+    }
+
+    footer{
+        margin-top: 5em; 
+    }
 }

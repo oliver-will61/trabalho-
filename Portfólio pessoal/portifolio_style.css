@@ -6,12 +6,14 @@
     font-size: var(--tamanho-fonte-titulo2);
     text-align: center;
     font-weight: 600;
-    margin-bottom: 3em;
     color: var(--cor-botao)
 }
 
 .container-portifolio-conteudo{
     margin: 0 0 0 4em ;
+}
+.container-portifolio-conteudo2{
+    margin: 0 4em 0 0 ;
 }
 
 
@@ -38,6 +40,7 @@
     align-items: center;
     font-size: var(--tamanho-fonte-principal);
     padding: 0 5em;
+    text-align: center;
     
 }
 
@@ -53,4 +56,15 @@
 
 .container-portifolio-imagem-projeto2{
     width: auto;
+}
+
+@media (max-width:1920px) {
+    .container-portifolio-imagem{
+        width: 30%;
+        text-align: end;
+    }
+
+    .container-portifolio-texto-links{
+        width: 60%;
+    }
 }

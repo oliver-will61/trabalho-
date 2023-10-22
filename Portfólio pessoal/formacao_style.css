@@ -24,3 +24,10 @@
 .container-cursos{
     margin-top: 2em;
 }
+
+@media (max-width:1920px) {
+    .container-texto-formacao {
+        width: 28%;
+    }
+
+}
