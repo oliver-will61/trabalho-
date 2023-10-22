@@ -1,0 +1,100 @@
+
+@import url(/styles/reset.css);
+@import url(/styles/contato_style.css);
+@import url(formacao_style.css);
+@import url(portifolio_style.css);
+
+:root {
+    --cor-de-fundo-menu: #612a52;
+    --cor-de-fundo: #2e1e45;
+    --cor-fonte: #ffffff;
+    --cor-fonte-hover:#ccbca1;
+    --cor-botao-hover:#ff695c;
+    --cor-botao:#ba3259;
+
+    --tamanho-fonte-titulo:2.8em;
+    --tamanho-fonte-menu:1.6em;
+    --tamanho-fonte-titulo2: 1.5em;
+    --tamanho-fonte-principal: 1.1em;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-de-fundo-menu);
+    padding: 2em;
+    font-weight: 500;
+}
+.lista{
+    display: flex;
+    margin-right: 3em;
+    gap: 10em;  
+}
+.lista-link{
+    color: var(--cor-fonte);
+    text-decoration: none;
+    font-size: var(--tamanho-fonte-menu);
+}
+.lista-link:hover, .fonte-link:hover{
+    color: var(--cor-fonte-hover);
+}
+main{
+    color: var(--cor-fonte);
+}
+.titulo{
+    font-size: var(--tamanho-fonte-titulo);
+    text-align: center;
+    margin: 1.5em 0 1.5em 0;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10em
+    
+}
+.container-imagem{
+    width: 23%;
+}
+
+.container-imagem img {
+    width: 100%;
+}
+
+
+.fonte-link{
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+
+.texto{
+    margin-bottom: 2em;
+    font-size: var(--tamanho-fonte-principal);
+}
+
+footer{
+    margin-top: 17em;
+    background-color: var(--cor-de-fundo-menu);
+    padding: 2em 0;
+}
+
+.footer-texto{
+    font-size: var(--tamanho-fonte-principal);
+    color: var(--cor-fonte);
+    text-align: center;
+    margin-bottom: 0.5em;
+}
